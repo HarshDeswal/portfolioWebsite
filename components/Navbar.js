@@ -10,6 +10,10 @@ const Navbar = () => {
             <Image src={signature} className={styles.sign} height={60} width={120} />
 
         </div>
+        <div className={styles.nav_toggler}>
+            <span></span>
+          
+        </div>
         <div className={styles.right}>
             <Link href='/'><button>Home </button></Link>
             <Link href='/about'><button>About</button></Link>

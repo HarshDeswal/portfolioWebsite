@@ -2,14 +2,31 @@
     background: linear-gradient(to bottom, #000000 0%, #ffffff 24%);
     display: flex;
     justify-content:center ;
-    padding-top: 100px;
+    padding:200px 0px 100px 0px;
     color: #000000;
+    align-items: center;
 }
 
 .left{
     width: 400px;
 }
 
+.left h1{
+    font-family: 'Poppins','sans-serif';
+    font-size: 35px;
+}
+.head1{
+    color: gray;
+}
+.head2{
+    color: #0AD6A0;
+}
 .right{
-    width: 500px;
+    width: 600px;
+    padding: 20px;
+}
+.right p{
+    font-weight: 600;
+    color: gray;
+    font-size: 20px;
 }

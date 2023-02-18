@@ -7,7 +7,7 @@ const Homesection1 = () => {
         <div className={styles.left}>
             <h2 className={styles.head2}>Hello There</h2>
             <h1 className={styles.head1}>
-                I am Harsh
+                I am <span>Harsh</span>
             </h1>
             <p className={styles.ptag}>A 20 year old tech enthusiast, I am a web developer and B.Tech CSE pre-final year student with deep interest in web developement and data science</p>
         </div>

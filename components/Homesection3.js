@@ -1,15 +1,21 @@
 import styles from '../styles/Homesection3.module.css'
-
-
+import projectimg1 from '../media/project/proj1.png'
+import projectimg2 from '../media/project/proj2.png'
+import Card1_left from './cards/Card1_left'
+import Card2_right from './cards/Card2_right'
 const Homesection3 = () => {
   return (
     <div className={styles.section3outer}>
         <h1>My Top Projects</h1>
-        <p>Cards</p>
-        <p>Cards</p>
-        <p>Cards</p>
-        <p>Cards</p>
-        <button>Show All Projects</button>
+        <Card1_left cimg={projectimg1} cname="Ecommerce Website" cdescription="I built an Ecommerce Platform using MERN,It has all the functionalities like Amazon" cvisit="https://www.amazon.in/" ccode="https://www.amazon.in/"/> 
+
+        <Card2_right cimg={projectimg2} cname="Movie Streaming Platform" cdescription="I built a Movie Streaming Platform using MERN,It has all the functionalities like Netflix" cvisit="https://www.amazon.in/" ccode="https://www.amazon.in/"/> 
+
+        <Card1_left cimg={projectimg1} cname="Ecommerce Website" cdescription="I built an Ecommerce Platform using MERN,It has all the functionalities like Amazon" cvisit="https://www.amazon.in/" ccode="https://www.amazon.in/"/> 
+
+        <Card2_right cimg={projectimg2} cname="Movie Streaming Platform" cdescription="I built a Movie Streaming Platform using MERN,It has all the functionalities like Netflix" cvisit="https://www.amazon.in/" ccode="https://www.amazon.in/"/> 
+
+        <button className={styles.mybtn}>Show All Projects</button>
     </div>
   )
 }
