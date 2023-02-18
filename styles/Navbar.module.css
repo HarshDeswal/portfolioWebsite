@@ -1,0 +1,25 @@
+.sign{
+    width:80px
+}
+
+.navouter{
+    height: 60px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+}
+
+.right button{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0px 10px;
+}
+
+.right button:hover{
+    text-decoration: underline;
+
+}

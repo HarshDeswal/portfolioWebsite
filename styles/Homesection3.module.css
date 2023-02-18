@@ -1,0 +1,8 @@
+.section3outer{
+    background: linear-gradient(to top right, #66ccff 0%, #66ffff 100%);
+    padding-top: 40px;
+}
+
+.section3outer h1{
+    text-align: center;
+}

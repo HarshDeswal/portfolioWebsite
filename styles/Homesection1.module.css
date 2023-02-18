@@ -1,0 +1,17 @@
+.head{
+    color: white;
+}
+
+.right{
+    width: 800px;
+}
+.section1outer{
+    display: flex;
+}
+
+.left{
+    color: white;
+}
+.head2{
+    font-size: 30px;
+}

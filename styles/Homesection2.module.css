@@ -1,0 +1,15 @@
+.section2outer{
+    background: linear-gradient(to bottom, #000000 0%, #ffffff 24%);
+    display: flex;
+    justify-content:center ;
+    padding-top: 100px;
+    color: #000000;
+}
+
+.left{
+    width: 400px;
+}
+
+.right{
+    width: 500px;
+}
