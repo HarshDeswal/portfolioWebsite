@@ -11,14 +11,15 @@
     padding:10px;
 }
 
-.right{
+.right,.right1{
     display: flex;
     width: 500px;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 
-.right button{
+.right button,.right1 button{
     background-color: black;
     color: white;
     font-weight: 700;
@@ -29,12 +30,13 @@
     
 }
 
+
 .right button:hover{
     border-bottom:3px solid rgb(255, 255, 255);
     cursor: pointer;
 
 }
-.nav_toggler{
+.nav_toggler {
     display: none;
     height: 34px;
     width: 44px;
@@ -42,11 +44,17 @@
     border-radius: 5px;
     cursor: pointer;
     border: none;
+
     flex-direction: column;
     justify-content: center;
 }
 
-.nav_toggler span{
+.nav_toggler:focus {
+    /* outline: none; */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+.nav_toggler span {
     height: 2px;
     width: 20px;
     background-color: black;
@@ -55,10 +63,11 @@
     position: relative;
     transition: all 0.3s ease;
 }
+
 .nav_toggler span::before,
-.nav_toggler span::after{
+.nav_toggler span::after {
     content: "";
-    position: relative;
+    position: absolute;
     left: 0px;
     top: 0px;
     width: 100%;
@@ -66,10 +75,51 @@
     background-color: black;
     transition: all 0.3s ease;
 }
-.nav_toggler span::before{
-    transform: translateY(-6px);
 
+.nav_toggler span::before {
+    transform: translateY(-6px);
 }
-.nav_toggler span::after{
+
+.nav_toggler span::after {
     transform: translateY(6px);
+}
+
+
+
+
+.navactive span::before {
+    transform: rotate(45deg);
+}
+
+.navactive span {
+    background-color: white;
+}
+
+.navactive span::after {
+    transform: rotate(135deg);
+}
+
+@media (max-width:500px)  {
+    .right{
+        display: none;
+    }
+    .nav_toggler{
+        display: flex;
+    }
+    .right1{
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        z-index: +5;
+        width: 100px;
+        background-color: white;
+        height: 200px;
+    }
+    .right1 button{
+        background-color: white;
+        color: black;
+        border: none;
+    }
+    
 }

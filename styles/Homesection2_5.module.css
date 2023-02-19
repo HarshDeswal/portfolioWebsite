@@ -235,3 +235,35 @@
         padding-bottom: 10px;
     }
 }
+
+@media (max-width){
+    .circle,
+    .hrline{
+        display: none;
+    }
+    .circlelinecircletext{
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .vrline{
+        display: none;
+    }
+    .circlelinecircletext p{
+        position: relative;
+        top:0px;
+        left: 0pc;
+    }
+    .text{
+        display: none;
+    }
+    .vrline2{
+        display: block;
+        margin: auto;
+    }
+    .arrow{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+}

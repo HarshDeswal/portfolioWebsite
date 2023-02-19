@@ -30,3 +30,28 @@
     color: gray;
     font-size: 20px;
 }
+
+@media (max-width:1120px){
+    .left h1{
+        font-family: 'Poppins','sans-serif';
+        font-size: 30px;
+        padding-left: 20px;
+    }
+    .right p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:700px){
+    .section2outer{
+        flex-direction: column;
+    }
+    .right,.left{
+        width: 90%;
+    }
+    .head1,
+    .head2,
+    .right p{
+        text-align: center;
+    }
+}

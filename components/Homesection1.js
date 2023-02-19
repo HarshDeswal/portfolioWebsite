@@ -5,7 +5,7 @@ const Homesection1 = () => {
   return (
     <div className={styles.section1outer}>
         <div className={styles.left}>
-            <h2 className={styles.head2}>Hello There</h2>
+            <h2 className={styles.head2}>Hello There,</h2>
             <h1 className={styles.head1}>
                 I am <span>Harsh</span>
             </h1>
