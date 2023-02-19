@@ -1,0 +1,128 @@
+.contact_outer{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(83, 236, 157);
+}
+
+.contact_inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.contact_innermost{
+    display: flex;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_innermost form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact_innermost form input,.contact_innermost form textarea{
+    background-color: rgb(193, 243, 217);
+    color: gray;
+    font-size: 15px;
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 500px;
+    font-weight: 700;
+}
+.contact_innermost form textarea{
+    min-height: 150px;
+    max-height: 300px;
+    min-width: 500px;
+    max-width: 500px;
+}
+.contact_inner form button{
+    width: 100px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(83, 236, 157);
+    color: white;
+    font-weight: 700;
+    border: none;
+    font-size: 18px;
+}
+.contact_inner form button:hover{
+    cursor: pointer;
+    transition: 1s all;
+    background-color: black;
+}
+.contact_inner form p{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    color: rgb(83, 236, 157);
+    width: 100%;
+    margin: 0px;
+    padding: 10px 15px;
+    text-align: left;
+}
+.contact_inner p{
+    font-size: 50px;
+    margin: 0px;
+    color: white;
+    font-weight: 600;
+}
+@media (max-width:1150px){
+    .contact_inner{
+        justify-content: flex-start;
+    }
+    .contact_innermost{
+        flex-direction: column;
+        height: max-content;
+    }
+    .contact_outer{
+        background-color:blueviolet;
+        padding: 20px;
+        height: 100%;
+    }
+    .contact_innermost form input,.contact_innermost form textarea{
+        background-color: rgb(221, 186, 255);
+        width: 90%;
+    }
+    .contact_inner form button{
+        background-color: blueviolet;
+    }
+    .contact_inner form p{
+        color: blueviolet;
+        display: flex;
+        justify-content: center;
+    }
+    .contact_inner form{
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .contact_innermost form textarea{
+        min-width: 90%;
+    }
+    .contact_inner .img{
+        border-radius: 10px;
+    }
+}
+
+@media (max-width:850px){
+   .contact_inner p{
+    font-size: 40px;
+   } 
+   .contact_innermost{
+    width: 100%;
+   }
+   .contact_innermost form p{
+    display: none;
+   }
+   .contact_innermost .img{
+    width: 100%;
+   }
+}
