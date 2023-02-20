@@ -29,9 +29,9 @@ const contact = () => {
             </div>
             <form onSubmit={sendEmail}>
               <p>Get in touch</p>
-              <input placeholder='Name' name='user_name'/>
-              <input placeholder='Email' name='user_email' />
-              <textarea placeholder='Message' name='message' />
+              <input placeholder='Name' name='user_name'required/>
+              <input type="email" placeholder='Email' name='user_email' required/>
+              <textarea placeholder='Message' name='message' required/>
               <button>Send</button>
             </form>
           </div>
