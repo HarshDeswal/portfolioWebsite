@@ -75,6 +75,9 @@
     color: white;
     font-weight: 600;
 }
+.contact_innermost .img{
+    width: 500px;
+}
 @media (max-width:1150px){
     .contact_inner{
         justify-content: flex-start;
@@ -110,6 +113,10 @@
     .contact_inner .img{
         border-radius: 10px;
     }
+    .contact_innermost .img{
+        width: 100%;
+    }
+    
 }
 
 @media (max-width:850px){
