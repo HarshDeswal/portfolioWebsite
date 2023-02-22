@@ -9,7 +9,7 @@ import Homesection3 from '@/components/Homesection3'
 import Homesection4 from '@/components/Homesection4'
 import Homesection5 from '@/components/Homesection5'
 import Homesection2_5 from '@/components/Homesection2_5'
-import Link from 'next/link'
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -17,7 +17,9 @@ export default function Home() {
     <div>
       <Head>
       
-      <Link rel="manifest" href="./favicon_io/site.webmanifest"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet"/>
       </Head>
       <Navbar></Navbar>
       <Homesection1/>
