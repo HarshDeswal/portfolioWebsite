@@ -12,7 +12,7 @@ const Card2_right = (props) => {
             </div>
             <div>
                 <button><a href={props.cvisit}>Visit</a></button>
-                <button><a href={props.code}>Source Code</a></button>
+                <button><a href={props.ccode}>Source Code</a></button>
             </div>
  
         </div>

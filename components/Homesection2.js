@@ -11,7 +11,7 @@ const Homesection2 = () => {
             </h1>
         </div>
         <div className={styles.right}>
-            <p>I love building new webpages with new functionalities. I learnt React, NextJs,  Flutter, MongoDB, FireBase. Did internship as a Flutter developer in a Startup. Also been the Data Analyst for Data analytics club in our college.<br/>Always eager to collaborate, innovate and solve the real world problems. </p>
+            <p>I love building new webpages with new functionalities. I learnt React Js, Next Js, Sanity, SQL, MySQL, RapidAPI, MongoDB. Did internship as a Application developer in a Startup. Also been the Data Analyst for Data analytics club in our college.<br/>Always eager to collaborate, innovate and solve the real world problems. </p>
         </div>
     </div>
   )

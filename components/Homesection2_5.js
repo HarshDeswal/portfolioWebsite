@@ -80,7 +80,7 @@ const Homesection2_5 = () => {
                     </div>
 
                     <p className={styles.text7}>
-                        <span>(2022 - 2023) -</span> Worked as Developer at Startup.
+                        <span>(2022 - 2023) -</span> Worked as Developer at XciteEducation Worldwide.
                     </p>
                 </div>
                 <div className={styles.vrline2}></div>

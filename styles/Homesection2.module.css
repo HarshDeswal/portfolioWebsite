@@ -1,5 +1,5 @@
 .section2outer{
-    background: linear-gradient(to bottom, #000000 0%, #ffffff 24%);
+    background: linear-gradient(to bottom, #000000 0%, #62606091 24%);
     display: flex;
     justify-content:center ;
     padding:200px 0px 100px 0px;
@@ -16,7 +16,7 @@
     font-size: 35px;
 }
 .head1{
-    color: gray;
+    color: rgb(246, 242, 242);
 }
 .head2{
     color: #0AD6A0;
@@ -27,7 +27,7 @@
 }
 .right p{
     font-weight: 600;
-    color: gray;
+    color: rgb(240, 229, 229);
     font-size: 20px;
 }
 

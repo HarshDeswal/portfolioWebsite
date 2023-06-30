@@ -34,7 +34,7 @@
 
 .left .ptag{
     font-size: 20px;
-    color: gray;
+    color: rgb(232, 225, 225);
 }
 
 @media (max-width:800px){

@@ -15,9 +15,9 @@ const about = () => {
       <Navbar/>
       <div className={styles.section1}>
       <h1 className={styles.head1}>About Me</h1>
-                <p className={styles.para1}>I love building webpages & apps, I learnt MERN stack development for full stack & React Native for Apps, I enjoy learning new stuff everyday and I don't focus on certificates my main achievements are my skills which I got by building projects & solving bugs. I am also a programmer & I am still improving myself in this field, my main focus is Data Structures & Algorithms.<br /><br />
+                <p className={styles.para1}>I love building webpages & apps, I enjoy learning new stuff everyday and my main achievements are my skills which I got by building projects & solving bugs. I am also a programmer & I am still improving myself in this field, my main focus is Data Structures & Algorithms.<br /><br />
 
-                    I did many internships related to web development, currently I am working as a mentor/educator at GeeksForGeeks & also an intern as a full-stack web developer at DOA Guru Infosystems & I am willing to learn more.
+                    I did many internships related to application development at XciteEducation Worldwide. Apart from that I have been part of data analytics club also and headed various projects also.
                 </p>
                 <div className={styles.imgcont}>
                     <Image src={aboutimg} layout='responsive' />
@@ -28,19 +28,18 @@ const about = () => {
                 <div className={styles.detailsleft}>
                     <div className={styles.detailsinner}>
                         <h1>Education</h1>
-                        <p><span>(2004-2018)</span> Christ Church Boy's School Jabalpur ( 10th with 72% )</p>
-                        <p><span>(2018-2020)</span> Maharashtra High School Jabalpur ( 12th PCM with 80% )</p>
-                        <p><span>(2020-2024)</span> Gyan Ganga Institute of Technology Jabalpur (Btech in CSE with AIML)</p>
+                        <p><span>(2008-2020)</span> Kendriya Vidyalaya ( 10th : 93.4% and 12th : 94.0%  )</p>
+                        <p><span>(2020-2024)</span> Vellore Institute of Technology (Btech in CSE with CPS with 9.06 CGPA)</p>
                     </div>
                 </div>
 
                 <div className={styles.detailsright}>
                     <div className={styles.detailsinner}>
-                        <h1>Experience</h1>
-                        <p><span>(2020 - till date)</span> I found a Coding community Coders Hub</p>
-                        <p><span>(2021 + 3months)</span> Worked as an intern at 3bitDigital in Full Stack Development</p>
-                        <p><span>(2021 - till date)</span> Worked as a Mentor/Educator at GeeksForGeeks in Web/App Development</p>
-                        <p><span>(2022 - till date)</span> Working as an intern at DOA Guru Infosystems in MERN Stack Develpoment</p>
+                        <h1>Experience & Hackathons</h1>
+                        <p><span>(2021 - 2022)</span> Core member of Data Analytics club</p>
+                        <p><span>(2022 (Oct - Dec))</span> Application Developer at XciteEducation Worldwide</p>
+                        <p><span>(2023 (April))</span> Got 282nd position in Amazon ML Challenge 2023 out of 5000 teams </p>
+                        <p><span>(2023 - till date)</span> Shortlisted for Prototype phase in Broadridge India Innovation Hackathon 2023</p>
                     </div>
                 </div>
 
@@ -49,8 +48,7 @@ const about = () => {
                         <h1>My Skills</h1>
                         <p><span>Programming in</span> C, C++, Python & Javascript</p>
                         <p><span>Comptitive Programming with</span> DSA in C/C++ </p>
-                        <p><span>Web Development in</span> MERN Stack</p>
-                        <p><span>App Development</span> React Native</p>
+                        <p><span>Web Development in</span> Next Js, React Js, SQL, MongoDB, Sanity, Tailwind CSS</p>
                     </div>
                 </div>
             </div>

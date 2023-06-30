@@ -1,7 +1,7 @@
 .left{
     width: 500px;
     border-radius: 20px;
-    background-color: black;
+    background-color: rgb(207, 194, 194);
 }
 .card_outer{
     display: flex;
@@ -13,7 +13,7 @@
 .right{
     width: 500px;
     height: 180px;
-    background-color: #FFD51E;
+    background-color: #70b75e;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 10px;
@@ -28,13 +28,14 @@
     height: 100%;
 }
 .right h2{
-    color:rgb(92, 92, 92);
+    color:rgb(28, 29, 20);
     font-family: 'Poppins','sans-serif';
     font-size: 30px;
 }
 .right p{
-    color: gray;
+    color: rgba(247, 246, 246, 0.993);
     font-size: 18px;
+    font-weight: 600;
 }
 .right button{
     margin-top: 10px;

@@ -9,7 +9,7 @@ const Homesection1 = () => {
             <h1 className={styles.head1}>
                 I am <span>Harsh</span>
             </h1>
-            <p className={styles.ptag}>A 20 year old tech enthusiast, I am a web developer and B.Tech CSE pre-final year student with deep interest in web developement and data science</p>
+            <p className={styles.ptag}>A 21 year old tech enthusiast, I am a web developer and B.Tech CSE final year student with deep interest in web developement and data science</p>
         </div>
         <div className={styles.right}>
             
