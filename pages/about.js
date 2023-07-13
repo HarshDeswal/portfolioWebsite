@@ -55,7 +55,7 @@ const about = () => {
 
             <div className={styles.section1}>
                 <h1 className={styles.head2}>To Know More about me</h1>
-                <button><a href='#'>Download Resume</a></button>
+                <button><a href='https://drive.google.com/file/d/1zrBlM-wo5C7UUvj72pi3otbMSinyueYM/view?usp=sharing'>Download Resume</a></button>
             </div>
             <Homesection5/>
     </div>
