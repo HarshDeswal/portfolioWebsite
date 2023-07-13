@@ -43,7 +43,7 @@
 
     }
     .left span{
-        word-break:normal;
+        word-break:break-all;
     }
 }
 @media (max-width:450px) {
