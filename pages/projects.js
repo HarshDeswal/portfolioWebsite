@@ -35,7 +35,7 @@ const projects = () => {
 
                 <Card2_right cimg={projectimg7} cname="Brain Tumor Detection" cdescription="We have used CNN's ResNet50 architecture and deployed using Streamlit" cvisit="https://kanishkaghosh21-brain-tumor-detection-tarp.streamlit.app/" ccode="https://github.com/HarshDeswal/BRAIN-TUMOR-DETECTION-USING-MRI-SCANS" />
 
-                <Card1_left cimg={projectimg6} cname="ICC T20 world cup 2022 Prediction" cdescription="We have used Jupter Notebook, numpy, Pandas,Seaborn, Matplotlib and scikit Learn library" cvisit="#" ccode="https://github.com/HarshDeswal/ICC-T20-world-cup-2022-Prediction" />
+                <Card1_left cimg={projectimg6} cname="ICC T20 world cup 2022 Prediction" cdescription="We have used Jupter Notebook, numpy, Pandas,Seaborn, Matplotlib and scikit Learn library" cvisit="https://medium.com/@harshdeswal81/prediction-of-icc-t20-wcc-2022-winner-be0970d5b58b" ccode="https://github.com/HarshDeswal/ICC-T20-world-cup-2022-Prediction" />
                 
 
                 
