@@ -87,9 +87,8 @@ const Homesection2_5 = () => {
 
                 <div className={styles.circlelinecircletext}>
                     <p className={styles.text8}>
-                        <span>(2023 - till date) -</span>Learning new Technology and building projects with it.
+                        <span>(2024) -</span> R&D intern at HPE.
                     </p>
-
                     <div>
                         <div style={{ display: 'flex', alignItems: 'center', position: 'relative', left: '-60px' }}>
                             <button className={styles.circle}></button>
@@ -97,6 +96,29 @@ const Homesection2_5 = () => {
                             <button className={styles.circle}></button>
                         </div>
                         <p className={styles.vrline}></p>
+                    </div>
+                </div>
+                <div className={styles.vrline2}></div>
+                <div className={styles.circlelinecircletext}>
+                    <p className={styles.text}></p>
+                    <div>
+                        <div style={{ display: 'flex', alignItems: 'center' }}>
+                            <button className={styles.circle}></button>
+                            <p className={styles.hrline}></p>
+                            <button className={styles.circle}></button>
+                        </div>
+                        <p className={styles.vrline}></p>
+                    </div>
+
+                    <p className={styles.text1}>
+                        <span>(2024 - till date) -</span> Software Engineer 1 at PayPal.
+                    </p>
+                </div>
+                <div className={styles.vrline2}></div>
+
+                <div className={styles.circlelinecircletext}>
+                    <p className={styles.text}></p>
+                    <div>
                         <div className={styles.vrline2}></div>
                         <p className={styles.arrow}>v</p>
                         <p style={{}} className={styles.text9}>
