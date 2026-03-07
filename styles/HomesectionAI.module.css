@@ -27,6 +27,7 @@
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 24px;
+    align-items: stretch;
 }
 
 .card{
@@ -45,6 +46,9 @@
     font-family: 'Poppins','sans-serif';
     font-size: 22px;
     color: #0AD6A0;
+    min-height: 56px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .card p{

@@ -3,7 +3,7 @@ import styles from '../styles/HomesectionAI.module.css'
 const HomesectionAI = () => {
   return (
     <div className={styles.sectionAiOuter}>
-      <h1 className={styles.title}>AI Dev</h1>
+      <h1 className={styles.title}>AI Development Workflow</h1>
       <p className={styles.subtitle}>
         How I use AI tools like Cursor and GitHub Copilot to build, improve and ship projects faster.
       </p>
