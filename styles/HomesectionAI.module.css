@@ -1,0 +1,74 @@
+.sectionAiOuter{
+    background: linear-gradient(to top right, #050505 0%, #4e5a5a 100%);
+    padding: 120px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Poppins','sans-serif';
+    font-weight: 700;
+    color: white;
+    font-size: 48px;
+}
+
+.subtitle{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(232, 225, 225);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.card{
+    border-radius: 20px;
+    padding: 24px 20px;
+    background: rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(6px);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card h2{
+    font-family: 'Poppins','sans-serif';
+    font-size: 22px;
+    color: #0AD6A0;
+}
+
+.card p{
+    font-size: 16px;
+    color: rgb(230, 228, 228);
+}
+
+@media (max-width:1120px){
+    .sectionAiOuter{
+        padding: 100px 20px;
+    }
+
+    .cards{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width:700px){
+    .sectionAiOuter{
+        padding: 80px 16px;
+    }
+
+    .cards{
+        grid-template-columns: 1fr;
+    }
+}
+
