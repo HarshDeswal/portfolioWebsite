@@ -2,10 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: var(--space-2xl, 2rem) var(--section-padding-x, 2rem);
 }
 .section5outermost h1{
-    font-size: 20px;
-    padding: 0px 20px;
+    font-size: var(--text-small, 1rem);
+    font-family: var(--font-heading, 'Poppins'), sans-serif;
+    font-weight: 500;
+    padding: 0 var(--space-lg, 1.5rem);
+    opacity: 0.85;
 }
 
 @media (max-width:450px){

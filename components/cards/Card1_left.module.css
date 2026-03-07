@@ -2,55 +2,99 @@
     width: 500px;
     border-radius: 20px;
     background-color: rgb(207, 194, 194);
+    overflow: hidden;
 }
 .card_outer{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 60px 0px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 0.3s ease;
+}
+.card_outer:hover{
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
 }
 
 .right{
     width: 500px;
-    height: 180px;
+    min-height: 180px;
     background-color: #70b75e;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding: 10px;
+    padding: var(--space-lg, 1.5rem);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: var(--space-md, 1rem);
 }
 .right .text{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100%;
+    gap: var(--space-sm, 0.5rem);
 }
 .right h2{
-    color:rgb(28, 29, 20);
-    font-family: 'Poppins','sans-serif';
-    font-size: 30px;
+    color: rgb(28, 29, 20);
+    font-family: var(--font-heading, 'Poppins'), sans-serif;
+    font-size: var(--text-h2, 1.5rem);
+    font-weight: 600;
+    line-height: var(--line-height-tight, 1.2);
 }
 .right p{
-    color: rgba(247, 246, 246, 0.993);
-    font-size: 18px;
+    color: rgba(247, 246, 246, 0.98);
+    font-size: var(--text-body, 1rem);
+    font-weight: 500;
+    line-height: var(--line-height-body, 1.6);
+}
+.badges{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: 0.25rem;
+}
+.badge{
+    font-size: var(--text-small, 0.8125rem);
+    padding: 0.2rem 0.5rem;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.95);
+    font-weight: 500;
+}
+.actions{
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+}
+.btnPrimary,
+.btnSecondary{
+    display: inline-block;
+    font-size: 0.9375rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
     font-weight: 600;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
-.right button{
-    margin-top: 10px;
+.btnPrimary{
     background-color: white;
-    font-size: 17px;
-    padding: 3px 10px;
-    border: none;
-    margin-right: 15px;
-    border-radius: 10px;
-    font-weight: 700;
-    color:rgb(95, 95, 95)
+    color: rgb(95, 95, 95);
 }
-.right button:hover{
+.btnPrimary:hover{
     background-color: black;
     color: white;
+    transform: translateY(-1px);
+}
+.btnSecondary{
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+}
+.btnSecondary:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: white;
+    transform: translateY(-1px);
 }
 @media (max-width:1050px) {
     .left {

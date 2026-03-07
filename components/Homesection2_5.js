@@ -1,8 +1,9 @@
 import styles from '../styles/Homesection2_5.module.css'
+import AnimatedSection from './AnimatedSection'
 
 const Homesection2_5 = () => {
     return (
-        <div className={styles.section2_5outer}>
+        <AnimatedSection className={styles.section2_5outer}>
             <h1>My Experience & Education</h1>
             <div className={styles.section2_5inner}>
 
@@ -130,7 +131,7 @@ const Homesection2_5 = () => {
 
 
             </div>
-        </div>
+        </AnimatedSection>
     )
 }
 

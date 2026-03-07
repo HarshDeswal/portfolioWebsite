@@ -1,10 +1,11 @@
 import styles from '../styles/Homesection5.module.css'
 import Image from 'next/image'
 import signature from '../media/signature.png'
+import AnimatedSection from './AnimatedSection'
 
 const Homesection5 = () => {
   return (
-    <div className={styles.section5outermost}>
+    <AnimatedSection className={styles.section5outermost}>
         <div className={styles.left}>
         <Image src={signature} className={styles.sign} height={60} width={120} /> 
         </div>
@@ -13,7 +14,7 @@ const Homesection5 = () => {
                 Built from scratch by me
             </h1>
         </div>
-    </div>
+    </AnimatedSection>
   )
 }
 
