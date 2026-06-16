@@ -12,9 +12,9 @@ const Homesection1 = () => {
           I am <span>Harsh</span>
         </h1>
         <p className={styles.ptag}>
-          Software Engineer with 1.5+ years of experience building scalable web applications and distributed microservices. Strong in
-          system design and performance optimization across React/Next.js and Java/Spring Boot, owning revenue-critical systems with
-          a focus on reliability and scale.
+          Backend Software Engineer with 1.5+ years of experience at PayPal and HPE, specializing in high-throughput distributed
+          microservices and scalable web architectures. Proven track record in optimizing system performance, reducing latency by 83%,
+          and driving millions in incremental revenue through Java/Spring Boot and Next.js solutions.
         </p>
       </div>
       <div className={styles.right}>
