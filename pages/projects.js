@@ -32,34 +32,30 @@ export default function Projects() {
       </Head>
       <Navbar />
       <div className={styles.section3outer}>
-        <h1 className={styles.sectionTitle}>My Projects</h1>
-        {projectList.map((proj, i) =>
-          i % 2 === 0 ? (
-            <Card1_left
-              key={proj.name}
-              cimg={proj.img}
-              cname={proj.name}
-              cdescription={proj.description}
-              cvisit={proj.visit}
-              ccode={proj.code}
-              techStack={proj.techStack}
-              staggerDelay={i * 0.08}
-            />
-          ) : (
-            <Card2_right
-              key={proj.name}
-              cimg={proj.img}
-              cname={proj.name}
-              cdescription={proj.description}
-              cvisit={proj.visit}
-              ccode={proj.code}
-              techStack={proj.techStack}
-              staggerDelay={i * 0.08}
-            />
-          )
-        )}
-      </div>
-      <Homesection5 />
+
+                <h1>My Projects</h1>
+                <Card1_left cimg={projectimg1} cname="Denvo Ecommerce Store" cdescription="I built it using Next Js for frontend, sanity for CMS and integrated it with stripe payment gateway" cvisit="https://denvo.vercel.app/" ccode="https://github.com/HarshDeswal/ecommerce_Store"/> 
+
+                <Card2_right cimg={projectimg2} cname="Travel Advisor" cdescription="I built a trave advisor website using React Js, Materil UI, Google Map React,Rapid API" cvisit="https://travellers2.netlify.app/" ccode="https://github.com/HarshDeswal/travel_advisor"/> 
+
+                <Card1_left cimg={projectimg3} cname="Songify-Music Streaming website" cdescription="I built it using React Js,Tailwind CSS and RapidAPI " cvisit="https://songify1.vercel.app/" ccode="https://github.com/HarshDeswal/Songify"/> 
+
+                <Card2_right cimg={projectimg5} cname="Audio Visualizer" cdescription="We used javacript,bootstrap and p5 js for visual rendering and interaction" cvisit="https://audio-visualizer-345f1.web.app" ccode="https://github.com/Harsh-Nishad/Audio_vizualizer" />
+
+                <Card1_left cimg={projectimg4} cname="Talkie - BOT" cdescription="I have used javascipt for frontend,nodejs for backend and used OpenAI APIs for query answering" cvisit="https://talkie-ai-xi.vercel.app/" ccode="https://github.com/HarshDeswal/talkie_AI" />
+
+                <Card2_right cimg={projectimg7} cname="Brain Tumor Detection" cdescription="We have used CNN's ResNet50 architecture and deployed using Streamlit" cvisit="https://kanishkaghosh21-brain-tumor-detection-tarp.streamlit.app/" ccode="https://github.com/HarshDeswal/BRAIN-TUMOR-DETECTION-USING-MRI-SCANS" />
+
+                <Card1_left cimg={projectimg6} cname="ICC T20 world cup 2022 Prediction" cdescription="We have used Jupter Notebook, numpy, Pandas,Seaborn, Matplotlib and scikit Learn library" cvisit="https://medium.com/@harshdeswal81/prediction-of-icc-t20-wcc-2022-winner-be0970d5b58b" ccode="https://github.com/HarshDeswal/ICC-T20-world-cup-2022-Prediction" />
+                
+
+                
+
+                {/* <button className={styles.mybtn}>Show All Projects</button> */}
+            </div>
+        <Homesection5/>
     </div>
   )
 }
+
+export default projects
