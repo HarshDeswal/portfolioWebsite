@@ -1,17 +1,18 @@
 .sectionAiOuter{
     background: linear-gradient(to top right, #050505 0%, #4e5a5a 100%);
-    padding: 120px 40px;
+    padding: var(--section-padding-y, 5rem) var(--section-padding-x, 2.5rem);
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: var(--space-3xl, 3rem);
 }
 
 .title{
     text-align: center;
-    font-family: 'Poppins','sans-serif';
+    font-family: var(--font-heading, 'Poppins'), sans-serif;
     font-weight: 700;
     color: white;
-    font-size: 48px;
+    font-size: var(--text-h1, 2.5rem);
+    line-height: var(--line-height-tight, 1.2);
 }
 
 .subtitle{
@@ -19,41 +20,50 @@
     margin: 0 auto;
     text-align: center;
     color: rgb(232, 225, 225);
-    font-size: 20px;
+    font-size: var(--text-body, 1.25rem);
     font-weight: 500;
+    line-height: var(--line-height-body, 1.6);
 }
 
 .cards{
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 24px;
+    gap: var(--space-xl, 1.5rem);
     align-items: stretch;
 }
 
 .card{
-    border-radius: 20px;
-    padding: 24px 20px;
+    border-radius: 16px;
+    padding: var(--space-xl, 1.5rem);
     background: rgba(0, 0, 0, 0.25);
-    border: 1px solid rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(6px);
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: var(--space-md, 1rem);
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+.card:hover{
+    border-color: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
 
 .card h2{
-    font-family: 'Poppins','sans-serif';
-    font-size: 22px;
+    font-family: var(--font-heading, 'Poppins'), sans-serif;
+    font-size: var(--text-h3, 1.25rem);
+    font-weight: 600;
     color: #0AD6A0;
-    min-height: 56px;
+    min-height: 2.5rem;
     display: flex;
     align-items: flex-end;
+    line-height: var(--line-height-tight, 1.2);
 }
 
 .card p{
-    font-size: 16px;
+    font-size: var(--text-small, 0.9375rem);
     color: rgb(230, 228, 228);
+    line-height: var(--line-height-body, 1.6);
 }
 
 @media (max-width:1120px){

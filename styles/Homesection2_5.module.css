@@ -1,10 +1,11 @@
 .section2_5outer h1 {
-    font-family: 'Poppins';
+    font-family: var(--font-heading, 'Poppins'), sans-serif;
     font-weight: 700;
     color: #5E17EB;
-    font-size: 50px;
-    padding: 0px 50px;
+    font-size: var(--text-h1, 2.5rem);
+    padding: 0 var(--section-padding-x, 2rem);
     text-align: center;
+    line-height: var(--line-height-tight, 1.2);
 }
 
 .section2_5outer {
@@ -12,11 +13,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    padding: 50px;
+    padding: var(--section-padding-y, 3rem) var(--section-padding-x, 2rem);
 }
 
 .section2_5inner {
-    margin-top: 100px;
+    margin-top: var(--space-4xl, 4rem);
 }
 
 .circlelinecircletext {

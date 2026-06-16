@@ -2,25 +2,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px 0px;
+    padding: var(--section-padding-y, 5rem) var(--section-padding-x, 2rem);
+    gap: var(--space-3xl, 3rem);
 }
-.left{
+.section4outermost .left{
     width: 500px;
-    padding: 30px;
-
+    max-width: 90%;
+    padding: var(--space-xl, 2rem);
 }
-.left p{
-    font-size: 25px;
-    color: gray;
+.section4outermost .left p{
+    font-size: var(--text-body, 1.25rem);
+    color: rgba(255, 255, 255, 0.7);
+    line-height: var(--line-height-relaxed, 1.75);
 }
-
-.left span{
+.section4outermost .left span{
     color: white;
+    font-weight: 500;
 }
-.right h1{
-    font-size: 100px;
-    font-family: 'Poppins','sans-serif';
-    line-height: 100px;
+.section4outermost .right h1{
+    font-size: var(--text-hero, clamp(3rem, 8vw, 6.25rem));
+    font-family: var(--font-heading, 'Poppins'), sans-serif;
+    font-weight: 700;
+    line-height: var(--line-height-tight, 1.1);
+    letter-spacing: -0.02em;
 }
 @media (max-width:1000px){
     .section4outermost{

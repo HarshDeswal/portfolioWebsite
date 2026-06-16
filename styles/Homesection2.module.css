@@ -1,44 +1,54 @@
 .section2outer{
     background: linear-gradient(to bottom, #000000 0%, #62606091 24%);
     display: flex;
-    justify-content:center ;
-    padding:200px 0px 100px 0px;
+    justify-content: center;
+    padding: var(--section-padding-y, 5rem) var(--section-padding-x, 2rem);
     color: #000000;
     align-items: center;
+    gap: var(--space-2xl, 2rem);
 }
 
-.left{
+.left {
     width: 400px;
 }
-
-.left h1{
-    font-family: 'Poppins','sans-serif';
-    font-size: 35px;
-}
-.head1{
+.left .head1{
+    font-family: var(--font-heading, 'Poppins'), sans-serif;
+    font-size: var(--text-h1, 2rem);
+    font-weight: 700;
     color: rgb(246, 242, 242);
+    line-height: var(--line-height-tight, 1.2);
+    margin-bottom: var(--space-sm, 0.5rem);
 }
-.head2{
+.left .head2{
+    font-family: var(--font-heading, 'Poppins'), sans-serif;
+    font-size: var(--text-h2, 1.5rem);
+    font-weight: 600;
     color: #0AD6A0;
+    line-height: var(--line-height-body, 1.6);
 }
 .right{
     width: 600px;
-    padding: 20px;
+    padding: var(--space-lg, 1.5rem);
+}
+.bodyText{
+    font-weight: 500;
+    color: rgb(240, 229, 229);
+    font-size: var(--text-body, 1.125rem);
+    line-height: var(--line-height-relaxed, 1.75);
 }
 .right p{
-    font-weight: 600;
+    font-weight: 500;
     color: rgb(240, 229, 229);
-    font-size: 20px;
+    font-size: var(--text-body, 1.125rem);
 }
 
 @media (max-width:1120px){
-    .left h1{
-        font-family: 'Poppins','sans-serif';
-        font-size: 30px;
-        padding-left: 20px;
+    .left .head1{
+        font-size: 1.75rem;
+        padding-left: var(--space-lg, 1rem);
     }
-    .right p{
-        font-size: 18px;
+    .right p, .bodyText{
+        font-size: 1rem;
     }
 }
 

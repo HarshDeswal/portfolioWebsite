@@ -15,9 +15,9 @@ const about = () => {
       <Navbar/>
       <div className={styles.section1}>
       <h1 className={styles.head1}>About Me</h1>
-                <p className={styles.para1}>I love building webpages & apps, I enjoy learning new stuff everyday and my main achievements are my skills which I got by building projects & solving bugs. I am also a programmer & I am still improving myself in this field, my main focus is Data Structures & Algorithms.<br /><br />
+                <p className={styles.para1}>I am a Backend Software Engineer with over 1.5 years of experience at PayPal and HPE, specializing in building high-throughput distributed microservices and scalable web architectures. I have a proven track record in optimizing system performance, reducing latency by 83%, and driving millions in incremental revenue through robust Java/Spring Boot and Next.js solutions.<br /><br />
 
-                    I did many internships related to application development at XciteEducation Worldwide. Apart from that I have been part of data analytics club also and headed various projects also.
+                    At PayPal, I architected revenue-critical checkout microservices, led backend compliance for 15+ countries, and orchestrated event-driven payment flows via Kafka. I am passionate about system design, database optimization, and building reliable systems at scale.
                 </p>
                 <div className={styles.imgcont}>
                     <Image src={aboutimg} layout='responsive' />
@@ -28,34 +28,42 @@ const about = () => {
                 <div className={styles.detailsleft}>
                     <div className={styles.detailsinner}>
                         <h1>Education</h1>
-                        <p><span>(2008-2020)</span> Kendriya Vidyalaya ( 10th : 93.4% and 12th : 94.0%  )</p>
-                        <p><span>(2020-2024)</span> Vellore Institute of Technology (Btech in CSE with CPS with 9.06 CGPA)</p>
+                        <p><span>(2020 - 2024)</span> Vellore Institute of Technology — Bachelor of Technology in Computer Science (CGPA: 9.15)</p>
                     </div>
                 </div>
 
                 <div className={styles.detailsright}>
                     <div className={styles.detailsinner}>
-                        <h1>Experience & Hackathons</h1>
-                        <p><span>(2021 - 2022)</span> Core member of Data Analytics club</p>
-                        <p><span>(2022 (Oct - Dec))</span> Application Developer at XciteEducation Worldwide</p>
-                        <p><span>(2023 (April))</span> Got 282nd position in Amazon ML Challenge 2023 out of 5000 teams </p>
-                        <p><span>(2023 - till date)</span> Shortlisted for Prototype phase in Broadridge India Innovation Hackathon 2023</p>
+                        <h1>Experience</h1>
+                        <p><span>(Oct 2024 - Mar 2026)</span> Software Engineer at PayPal — owned high-concurrency checkout microservices, global expansion across 15+ countries, Kafka event-driven flows, and Next.js performance optimization</p>
+                        <p><span>(Mar 2024 - Oct 2024)</span> R&D Intern at Hewlett Packard Enterprise (HPE) — automated kernel ABI validation, CI/CD pipeline engineering, and firmware deployment automation</p>
                     </div>
                 </div>
 
                 <div className={styles.detailsleft}>
                     <div className={styles.detailsinner}>
+                        <h1>Notable Achievements</h1>
+                        <p><span>PayPal Ideathon</span> Secured 2nd Prize for delivering an impactful product solution</p>
+                        <p><span>WorldQuant Championship 2023</span> Ranked Global 497 in the WorldQuant International Championship</p>
+                        <p><span>Broadridge Hackathon 2023</span> Finalist in the Broadridge India Innovation Hackathon</p>
+                        <p><span>Leadership</span> On-boarded 10+ engineers onto PayPal&apos;s revenue-critical systems; served as Class Program Representative at VIT</p>
+                    </div>
+                </div>
+
+                <div className={styles.detailsright}>
+                    <div className={styles.detailsinner}>
                         <h1>My Skills</h1>
-                        <p><span>Programming in</span> C, C++, Python & Javascript</p>
-                        <p><span>Comptitive Programming with</span> DSA in C/C++ </p>
-                        <p><span>Web Development in</span> Next Js, React Js, SQL, MongoDB, Sanity, Tailwind CSS</p>
+                        <p><span>Languages</span> Java, JavaScript (ES6+), Python, C++, SQL, NoSQL</p>
+                        <p><span>Backend & Frameworks</span> Spring Boot, Node.js, GraphQL, Microservices, RESTful APIs, React Js, Next.js</p>
+                        <p><span>Databases & Infrastructure</span> MySQL, PostgreSQL, MongoDB, Kafka, AWS, Azure, Docker, Jenkins, CI/CD, Datadog</p>
+                        <p><span>AI Tools</span> Cursor, GitHub Copilot, GenAI, Claude — agentic development workflows</p>
                     </div>
                 </div>
             </div>
 
             <div className={styles.section1}>
                 <h1 className={styles.head2}>To Know More about me</h1>
-                <button><a href='https://drive.google.com/file/d/1zrBlM-wo5C7UUvj72pi3otbMSinyueYM/view?usp=sharing'>Download Resume</a></button>
+                <button><a href='https://drive.google.com/file/d/1VhNrXLCKTLfPoaGcnXZeD49LmnNZ9669/view'>Download Resume</a></button>
             </div>
             <Homesection5/>
     </div>
